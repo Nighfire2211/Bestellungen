@@ -1,0 +1,46 @@
+<html>
+    <meta charset="utf-8">
+    <head>
+        <title>Neue Bestellung</title>
+    </head>
+        <h1>Neuer Besteullung</h1>
+        <p>Bitte füllen Sie die nachfolgenden Eingabefelder aus: </p>
+		<form action="neu.php" method="POST">
+		<table>
+			<tr><td>Kundenname:</td>
+                <td><input name="Kunde" type="text" size="20"></td>
+            </tr>
+
+			<tr><td>Ort:</td>
+                <td><input name="ort" type="text" size="20"></td>
+            </tr>
+
+			<tr><td>Bestellnummer:</td>
+                <td><input name="bn" type="text" size="20"></td>
+            </tr>	
+
+            <tr><td>Bestelldatum:</td>
+                <td><input name="bd" type="date" size="20"></td>
+            </tr>	
+
+			<tr><td>Menge:</td>
+                <td><input name="menge" type="text" size="20"></td>
+            </tr>		
+
+            <tr><td>Einheit:</td>
+                <td><input name="einheit"type="text" size="20"></td>
+            </tr>    
+            <tr><td>Artikelname:</td>
+                <td><input name="artikelname"type="text" size="20"></td>
+            </tr>    
+            <tr><td>Einheitspreis:</td>
+                <td><input name="einheitspreis"type="text" size="20"></td>
+            </tr>    
+			<tr>
+                <td><input type="submit" value="Abschicken"></td> 
+                <td><input type="reset" value="Zurücksetzen"></td>
+            </tr>
+		</table>
+        </form>
+    </body>
+</html>
